@@ -1,0 +1,218 @@
+*
+{
+	box-sizing: border-box;
+}
+
+html 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body 
+{	background: url('lights.jpeg') center no-repeat;
+	background-size: cover;
+	background-color: black;
+	font-family: sans-serif;
+	height: 100vh;
+	margin: 0;
+}
+
+#container
+{
+	height: 25%;
+}
+
+#instrument
+{
+	background-color: black;
+	width: 85%;	
+	margin: 15% auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.box 
+{
+	font-size: 2em;
+	text-align: center;
+	padding-top: 25px;
+	border: 2px solid #fff;
+	width: 6rem;
+	height: 6rem;
+	margin: 20px;
+	transition: all 0.1s;
+}
+
+/* NOTES BOXES */
+
+#c_note
+{
+	border: 2px solid #CF3052;
+	background-color: #3D0D17;
+	color: #CF3052;
+}
+
+#d_note
+{
+	border: 2px solid #8728C7;
+	background-color: #2A0D3D;
+	color: #8728C7;
+}
+#e_note
+{
+	border: 2px solid #2B19F7;
+	background-color: #0D074A;
+	color: #2B19F7;
+}
+#f_note
+{
+	border: 2px solid #27D417;
+	background-color: #0A3D06;
+	color: #27D417;
+}
+#g_note
+{
+	border: 2px solid #FC30CD;
+	background-color: #380A2D;
+	color: #FC30CD;
+}
+#a_note
+{
+	border: 2px solid #40CFFF;
+	background-color: #0A2B36;
+	color: #40CFFF;
+}
+#b_note
+{
+	border: 2px solid #F8FF29;
+	background-color: #2D2E07;
+	color: #F8FF29;
+}
+
+/* HOVER  */
+
+
+#c_note:hover
+{
+	background-color: #CF3052;
+	cursor: pointer;
+}
+
+#d_note:hover
+{
+	background-color: #8728C7;
+	cursor: pointer;
+}
+
+#e_note:hover
+{
+	background-color: #2B19F7;
+	cursor: pointer;
+}
+#f_note:hover
+{
+	background-color: #27D417;
+	cursor: pointer;
+}
+#g_note:hover
+{
+	background-color: #FC30CD;
+	cursor: pointer;
+}
+#a_note:hover
+{
+	background-color: #40CFFF;
+	cursor: pointer;
+}
+#b_note:hover
+{
+	background-color: #F8FF29;
+	cursor: pointer;
+}
+
+/* ACTIVE */
+
+#c_note:active
+{
+	transform: scale(2.5);
+}
+
+#d_note:active
+{
+	transform: scaleY(3);
+}
+
+
+#e_note:active
+{
+	transform: scale(2);
+}
+
+#f_note:active
+{
+	transform: scaleY(3.5);
+}
+
+#g_note:active
+{
+	transform: scaleX(2);
+}
+
+
+#a_note:active
+{
+	transform: scaleY(4);
+}
+
+#b_note:active
+{
+	transform: scale(5);
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1120px){
+	#instrument 
+	{
+		height: ;
+	}
+}
+
+
+@media screen and (max-width: 600px){
+	.box {
+
+		width: 4.5rem;
+		height: 4.5rem;
+		padding-top: .6em;
+		font-size: 1.5em;
+	}
+
+	#instrument
+	{
+		position: absolute;
+		top: 10%;
+		width: 100%;	
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
